@@ -1,0 +1,63 @@
+.re-boot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.boots-trio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text-trio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    gap: 1.5rem;
+}
+
+.boots-trio h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.boots-trio p {
+    font-size: 1.2rem;
+    width: 33%;
+    line-height: 2.7rem;
+}
+
+.boots-trio :nth-child(3) p {
+    width: 50%;
+}
+
+.boots-trio a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.boots-trio a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sales-bgr {
+    background-color: #DFE0E5
+}
+
+.sale {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+.sales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}

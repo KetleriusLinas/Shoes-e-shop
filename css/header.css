@@ -81,6 +81,7 @@
 
 .search a {
     display: flex;
+    flex-direction: start;
     justify-content: center;
     text-align: center;
     font-size: 1.4rem;
