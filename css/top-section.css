@@ -1,27 +1,26 @@
 .top-container {
     width: 100%;
-    /* margin-bottom: 10px; */
     background-size: cover;
     background-position: center;
 }
 
 .top-section {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: end; */
-    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     height: 20rem;
     margin-bottom: 10px;
-
-    /* background-size: cover; */
-    /* background-position: center; */
+    background-size: cover;
+    background-position: center;
     background-image: url(../img/SaleImage1.png);
 }
 .bot-section {
-    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     height: 46rem;
-    /* background-size: cover; */
-    /* background-position: center; */
+    background-size: cover;
+    background-position: center;
     background-image: url(../img/Boots1.png);
     margin-bottom: 10px;
 }
@@ -36,38 +35,30 @@
 .dot2 {
     color: #717171
 }
-.boots-group {
+.shoes-group {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* align-items: center; */
-    padding-left: 5rem;
-    padding-right: 5rem;
-    /* text-align: center; */
+    justify-content: space-around;
     width: 100%;
+    margin-bottom: 50px;
 }
 
-.boots {
+.shoes {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* justify-content: space-around; */
-    /* text-align: center; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    width: 25%;
-}
-/* .boots-group a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     align-items: center;
+    width: 20%;
+}
+
+.shoes img {
+   width: 30%;
+   margin-bottom: 20px;
+}
+
+.shoes a {
     text-decoration: none;
     color: black;
 }
 
-.a {
-    display: flex;
-    flex-direction:column; 
-} */
+.shoes a:hover {
+    font-weight: bold;
+}
