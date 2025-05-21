@@ -1,0 +1,115 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.footer-left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-left-column h2 {
+    text-transform: uppercase;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 2rem;
+}
+
+.signup button {
+    width: 7rem;
+    color: #fff;
+    background-color: black;
+    border: none;
+}
+
+.signup button:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+.signup input {
+    outline: none;
+}
+
+.left-fa {
+    display: flex;
+    font-size: 2rem;
+    gap: 1.5rem;
+}
+
+.footer-mid-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-mid-column h2 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer-mid-column a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-mid-column a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.right-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right-btns button {
+    height: 2rem;
+    width: 20rem;
+}
+
+.footer-right-column h2 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.right-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.right-a a {
+    text-decoration: none;
+    color: black;
+}
+.right-a a:hover {
+    text-decoration: underline;
+}
+
+.right-fa {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
