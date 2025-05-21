@@ -1,0 +1,32 @@
+ .foto-quad {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0 2rem 0;
+ }
+
+ .bot-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .bot-content h2 {
+    text-transform: uppercase;
+ }
+
+ .bot-content a {
+    text-transform: uppercase;
+    color: black;
+ }
+
+ .bot-content a:hover {
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+ .receive-foto {
+   display: flex;
+   flex-direction: column;
+   margin-top: 3rem;
+ }
